@@ -11044,3 +11044,14 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+.fe3173ed6eda3342aedf {
+  display: flex !important;
+  width: 2500px !important;
+  height: 800px;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.chat-uikit-message-box-inner{
+  width: 2500px !important;
+}
