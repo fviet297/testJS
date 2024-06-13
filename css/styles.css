@@ -10,10 +10,22 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@keyframes backgroundAnimation {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+
+.animated-background {
+  background-image: url('https://ascjcapstone.com/terms/spring-2021/oliversc/img/img_parallax3.jpg');
+  background-size: cover;
+  animation: backgroundAnimation 10s linear infinite;
+}
+
 .fe3173ed6eda3342aedf {
   display: flex !important;
   width: 2500px !important;
-  height: 800px;
+  height: calc(106% - 28px)!important;
+  bottom: -30px !important;
   max-width: 90%;
   max-height: 90%;
 }
@@ -21,3 +33,14 @@
 .chat-uikit-message-box-inner{
   width: 2500px !important;
 }
+._9f839e00f175cb2844a4-link{
+  display: none !important;
+}
+.fe3173ed6eda3342aedf .d8ba2c365ec31bc5789a{
+  display: none !important;
+}
+body, html {
+  height: 100%;
+}
+
+

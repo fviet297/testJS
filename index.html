@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>VietBot</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-    <div><div class="fe3173ed6eda3342aedf" style="display: block;width: 2200px; --coze-z-index-iframe: 1000;"><button class="semi-button semi-button-tertiary semi-button-size-small semi-button-borderless d8ba2c365ec31bc5789a bc51fcac3d75ff875166 ad34ec78996698ccd335 semi-button-with-icon semi-button-with-icon-only" type="button" aria-disabled="false"><span class="semi-button-content"><span role="img" aria-label="close" class="semi-icon semi-icon-default semi-icon-close"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" focusable="false" aria-hidden="true"><path d="M17.6568 19.7782C18.2426 20.3639 19.1924 20.3639 19.7782 19.7782C20.3639 19.1924 20.3639 18.2426 19.7782 17.6568L14.1213 12L19.7782 6.34313C20.3639 5.75734 20.3639 4.8076 19.7782 4.22181C19.1924 3.63602 18.2426 3.63602 17.6568 4.22181L12 9.87866L6.34313 4.22181C5.75734 3.63602 4.8076 3.63602 4.22181 4.22181C3.63602 4.8076 3.63602 5.75734 4.22181 6.34313L9.87866 12L4.22181 17.6568C3.63602 18.2426 3.63602 19.1924 4.22181 19.7782C4.8076 20.3639 5.75734 20.3639 6.34313 19.7782L12 14.1213L17.6568 19.7782Z" fill="currentColor"></path></svg></span></span></button><iframe class="eb27e8d345a6df189413" src="https://api.coze.com/open-platform/sdk/chatapp?params=%7B%22chatClientId%22%3A%222W79xjQiZ5CX9bPq_-Kr-%22%2C%22chatConfig%22%3A%7B%22bot_id%22%3A%227376555316286816263%22%2C%22user%22%3A%222vhRJEl4EQ-E5wGe45VKH%22%2C%22conversation_id%22%3A%22LV0choxXjMoKl1OQMCEmw%22%7D%2C%22componentProps%22%3A%7B%22title%22%3A%22VIET-BOT%22%2C%22icon%22%3A%22https%3A%2F%2Flf-bot-studio-plugin-resource.coze.cn%2Fobj%2Fbot-studio-platform-plugin-tos%2Fartist%2Fimage%2F7e813aa2c7e14ebb9e2d1a989acfb128.png%22%2C%22layout%22%3A%22pc%22%2C%22lang%22%3A%22en%22%7D%7D" style="display: block;"></iframe></div><div id="semi-image-preview-group-jx3n" class="semi-image-preview-group"></div></div>
-    <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
-     <script>
-         document.addEventListener('DOMContentLoaded', (event) => {
-             openChatPopup();
-         });
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>VietBot</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<div>
+    <div class="fe3173ed6eda3342aedf" style="display: block;width: 2200px; --coze-z-index-iframe: 1000;">
+        <button class="semi-button semi-button-tertiary semi-button-size-small semi-button-borderless d8ba2c365ec31bc5789a bc51fcac3d75ff875166 ad34ec78996698ccd335 semi-button-with-icon semi-button-with-icon-only"
+                type="button" aria-disabled="false"><span class="semi-button-content"><span role="img"
+                                                                                            aria-label="close"
+                                                                                            class="semi-icon semi-icon-default semi-icon-close"><svg
+                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                focusable="false" aria-hidden="true"><path
+                d="M17.6568 19.7782C18.2426 20.3639 19.1924 20.3639 19.7782 19.7782C20.3639 19.1924 20.3639 18.2426 19.7782 17.6568L14.1213 12L19.7782 6.34313C20.3639 5.75734 20.3639 4.8076 19.7782 4.22181C19.1924 3.63602 18.2426 3.63602 17.6568 4.22181L12 9.87866L6.34313 4.22181C5.75734 3.63602 4.8076 3.63602 4.22181 4.22181C3.63602 4.8076 3.63602 5.75734 4.22181 6.34313L9.87866 12L4.22181 17.6568C3.63602 18.2426 3.63602 19.1924 4.22181 19.7782C4.8076 20.3639 5.75734 20.3639 6.34313 19.7782L12 14.1213L17.6568 19.7782Z"
+                fill="currentColor"></path></svg></span></span></button>
+        <iframe class="eb27e8d345a6df189413"
+                src="https://api.coze.com/open-platform/sdk/chatapp?params=%7B%22chatClientId%22%3A%222W79xjQiZ5CX9bPq_-Kr-%22%2C%22chatConfig%22%3A%7B%22bot_id%22%3A%227376555316286816263%22%2C%22user%22%3A%222vhRJEl4EQ-E5wGe45VKH%22%2C%22conversation_id%22%3A%22LV0choxXjMoKl1OQMCEmw%22%7D%2C%22componentProps%22%3A%7B%22title%22%3A%22VIET-BOT%22%2C%22icon%22%3A%22https%3A%2F%2Flf-bot-studio-plugin-resource.coze.cn%2Fobj%2Fbot-studio-platform-plugin-tos%2Fartist%2Fimage%2F7e813aa2c7e14ebb9e2d1a989acfb128.png%22%2C%22layout%22%3A%22pc%22%2C%22lang%22%3A%22en%22%7D%7D"
+                style="display: block;"></iframe>
+    </div>
+    <div id="semi-image-preview-group-jx3n" class="semi-image-preview-group"></div>
+</div>
+<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        openChatPopup();
+    });
 
-         function openChatPopup() {
-             console.log('Display')
-             document.querySelector('fe3173ed6eda3342aedf').style.display = 'flex';
-         }
-         new CozeWebSDK.WebChatClient({
-           config: {
-             bot_id: '7376555316286816263',
-           },
-           componentProps: {
-             title: 'VIET-BOT',
-             icon: 'https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/artist/image/7e813aa2c7e14ebb9e2d1a989acfb128.png',
-           },
-         });
-     </script>
+    function openChatPopup() {
+        console.log('Display')
+        document.querySelector('_9f839e00f175cb2844a4-link').style.display = 'none';
+    }
 
-   </body>
+    new CozeWebSDK.WebChatClient({
+        config: {
+            bot_id: '7376555316286816263',
+        },
+        componentProps: {
+            title: 'VIET-BOT',
+            icon: 'https://lf-bot-studio-plugin-resource.coze.cn/obj/bot-studio-platform-plugin-tos/artist/image/7e813aa2c7e14ebb9e2d1a989acfb128.png',
+        },
+    });
+</script>
+
+</body>
 </html>
